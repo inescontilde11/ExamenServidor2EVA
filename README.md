@@ -64,3 +64,29 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+#laravel new examenServidor
+
+#docker compose up -d, abrir docker para que se cree y active correctamente
+
+#npm install daisyui@latest
+
+#php artisan migrate:fresh --seed
+
+#Me registro por primera vez para comprobar que register y login funcionan
+
+#Funcionan y me permiten ver el botón jugadores
+
+# php artisan make:model Jugador --all
+
+#php artisan migrate:fresh --seed
+
+#npm run dev
+
+#php artisan serve
+
+#Añado un nuevo jugador a la tabla correctamente
+
+#Elimino un jugador de la tabla con un poco de dificultado pero quien sigue el objetivo lo consigue
+
+#Actualizar da problemas si no se cambia ni el email ni el nick, pero en principio Rule::unique("jugador", "email)->ignore($this->jugador) no es necesario, además de que no funciona.
